@@ -1,5 +1,7 @@
+
 import random
 import webbrowser
+import time
 from unittest import result
 
 Chiffres = "0123456789"
@@ -14,8 +16,7 @@ time.sleep(10)
 ##############
 x = 40
 ###############
-
-for i in range(50):
+for i in range(x):
     
     Séquence = "".join(random.sample(Tout, longeur))
 
@@ -23,3 +24,4 @@ for i in range(50):
     
     webbrowser.open(result)
     print(result)
+    
